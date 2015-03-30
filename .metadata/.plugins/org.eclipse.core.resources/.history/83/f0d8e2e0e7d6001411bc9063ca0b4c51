@@ -5,7 +5,7 @@ public class Numbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int num;
-			System.out.println("***What is your number?***\nEnter it below:\n");
+			System.out.println("***Wtf is your number?***\nEnter it below:\n");
 			Scanner input = new Scanner(System.in);
 			num = input.nextInt();
 			
