@@ -1,0 +1,48 @@
+package com.justus.grader;
+import java.util.Scanner;
+
+
+public class Grader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int marks;
+		Scanner in = new Scanner(System.in);
+		System.out.println("\n*******Hello, Welcome to the grader*******\n. Enter your marks:\n");
+		marks = in.nextInt();
+		
+		if(marks>80 && marks<=100){
+			System.out.println("You scored "+ marks + "%");
+			System.out.println("You have an A");
+			System.out.println("You have passed");
+		}
+		
+		else if(marks<=80 && marks>70){
+			System.out.println("You scored "+ marks + "%");
+			System.out.println("You have a B");
+			System.out.println("You have passed");
+		}
+		
+		else if(marks<=70 && marks>60){
+			System.out.println("You scored "+ marks + "%");
+			System.out.println("You have a C");
+			System.out.println("You have passed");
+		}
+		
+		else if(marks<=60 && marks>50){
+			System.out.println("You scored "+ marks + "%");
+			System.out.println("You have an average performance");
+		}
+		else if(marks<=50 && marks>0){
+			System.out.println("You scored "+ marks + "%");
+			System.out.println("You have failed");
+		}
+		
+		else {
+			System.out.println("invalid input");
+		}
+
+	}
+
+}

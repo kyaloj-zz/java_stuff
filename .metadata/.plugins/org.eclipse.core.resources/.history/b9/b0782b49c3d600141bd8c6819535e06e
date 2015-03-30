@@ -1,0 +1,19 @@
+package com.justus.grader;
+import java.util.Scanner;
+
+
+public class Grader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int marks;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Hello, Welcome to our grader. Enter your marks:\n");
+		marks = in.nextInt();
+		
+		
+
+	}
+
+}
