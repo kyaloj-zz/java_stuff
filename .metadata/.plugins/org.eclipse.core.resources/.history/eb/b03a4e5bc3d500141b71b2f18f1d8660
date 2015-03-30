@@ -1,0 +1,13 @@
+package com.justus;
+
+import java.util.Scanner;
+public class shopping {
+      public static void main(String args[]){
+    	  String Tuna;
+    	  
+    	  Scanner jay = new Scanner(System.in);
+    	  
+    	  Tuna = "justus";
+    	System.out.println(jay.nextLine());
+    }
+}

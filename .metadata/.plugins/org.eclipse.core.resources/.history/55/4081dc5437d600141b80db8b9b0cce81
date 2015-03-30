@@ -1,0 +1,46 @@
+package com.justus.Nakumatt;
+
+import java.util.Scanner;
+
+public class Nakumatt {
+
+	private static final String FLOUR = null;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		String flour = "flour", cookingOil ="cooking Oil", sugar="sugar", vegetables="vegetables" ;
+		String baking, maize, elianto, kimbo, mumias, nzoia, tomatoes, kales, cabbage;
+		String exe, golden, jogoo, soko;
+		
+		
+		System.out.println("Hi, welcome to Nakumatt.What is your order today?");
+		
+		String userOrder;
+		userOrder = input.nextLine();
+		
+		
+		if (userOrder == flour){
+			System.out.println("hell");
+			
+		
+		
+	    
+
+		
+		
+			
+			
+			
+		}
+		
+
+	}
+
+	private static String valueOf(String upperCase) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

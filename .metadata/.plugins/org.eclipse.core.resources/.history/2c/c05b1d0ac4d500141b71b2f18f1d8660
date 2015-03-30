@@ -1,0 +1,22 @@
+package com.justus;
+
+import java.util.Scanner;
+public class shopping {
+      public static void main(String args[]){
+    	   	  
+    	  Scanner jay = new Scanner(System.in);
+    	  
+    	  int fnum, snum, answer;
+    	  
+    	  System.out.println("Enter number 1");
+    	  
+    	  fnum = jay.nextInt();
+    	  
+ System.out.println("Enter number 2");
+    	  
+    	  snum = jay.nextInt();
+    	  
+    	  answer= fnum + snum;
+    	System.out.println(answer);
+    }
+}

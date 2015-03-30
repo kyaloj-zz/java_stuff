@@ -1,0 +1,21 @@
+package com.justus;
+
+import java.util.Scanner;
+
+public class shopping {
+	
+	public static void main(String args[]){
+      	int boy, girl;
+      	
+      	boy = 18;
+      	girl= 50;
+      	
+      	if (boy > 10 && girl < 50){
+      		System.out.println("hell no");
+      	}
+      	
+      	else{
+      		System.out.println("welcome");
+      	}
+}
+}

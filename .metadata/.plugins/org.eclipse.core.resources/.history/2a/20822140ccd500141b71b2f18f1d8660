@@ -1,0 +1,14 @@
+package com.justus;
+
+import java.util.Scanner;
+
+public class shopping {
+	
+	public static void main(String args[]){
+      tuna tunas = new tuna();
+      tunas.Message();
+      
+     
+      	
+}
+}

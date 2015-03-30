@@ -1,0 +1,42 @@
+package com.justus.Nakumatt;
+
+import java.util.Scanner;
+
+public class Nakumatt {
+
+	private static final String FLOUR = null;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		String flour = "flour", cookingOil ="cookingOil", sugar="sugar", vegetables="vegetables" ;
+		String baking, maize, elianto, kimbo, mumias, nzoia, tomatoes, kales, cabbage;
+		String exe, golden, jogoo, soko;
+		
+		
+		System.out.println("Hi, welcome to Nakumatt.What is your order today?");
+		
+		String userOrder;
+		userOrder = input.nextLine();
+		
+		
+		if (userOrder.equals(flour)){
+			System.out.println("we have maize and baking flour. Which one would you like to have?");
+			
+	}
+		else if (userOrder.equals(cookingOil)){
+			System.out.println("we have Elianto and Kimbo. Which one would you like to have?");
+	} 
+		else if (userOrder.equals(sugar)){
+			System.out.println("we have Elianto and Kimbo. Which one would you like to have?");
+	} 
+		else if (userOrder.equals(vegetables)){
+			System.out.println("we have Elianto and Kimbo. Which one would you like to have?");
+	} 
+		
+		else{System.out.println("Sorry we do not have that one. But we have flour, cooking oil, sugar and vegetables. You can try one.");}
+	}
+}
+
+	

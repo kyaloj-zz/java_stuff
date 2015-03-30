@@ -1,0 +1,7 @@
+package com.justus;
+
+public class shopping {
+      public static void main(String args[]){
+    	System.out.println("Hello world");
+    }
+}

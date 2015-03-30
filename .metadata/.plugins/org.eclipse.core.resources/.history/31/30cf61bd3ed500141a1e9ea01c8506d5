@@ -1,0 +1,9 @@
+package com.justus;
+
+public class email {
+public static void main(String args[]){
+	
+	System.out.println("hello Frank, I wrote a java program, but cant figure out how I did it!");
+}
+
+}

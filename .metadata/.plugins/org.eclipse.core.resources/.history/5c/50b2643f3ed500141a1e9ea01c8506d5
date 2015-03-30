@@ -1,0 +1,14 @@
+package com.justus;
+
+public class email {
+public static void main(String args[]){
+	
+	System.out.println("hello there!");
+}
+	
+
+public email(String args[]){
+	System.out.println("are you Justus");
+	
+}
+}

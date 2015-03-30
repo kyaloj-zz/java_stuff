@@ -1,0 +1,14 @@
+package com.justus;
+
+import java.util.Scanner;
+
+
+
+public class greeting {
+public static void main(String args[]){
+	
+	Scanner jay =new Scanner(System.in);
+	System.out.println("what is your name");
+	
+}
+}
