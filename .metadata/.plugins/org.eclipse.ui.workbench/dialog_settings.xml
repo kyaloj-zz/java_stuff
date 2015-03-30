@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="844" key="dialogWidth"/>
-		<item value="474" key="dialogHeight"/>
+		<item value="838" key="dialogWidth"/>
+		<item value="468" key="dialogHeight"/>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
+			<item value="ecli"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.epp.mpc.ui.command.showMarketplaceWizard"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="374" key="DIALOG_WIDTH"/>
+		<item value="org.eclipse.egit.ui.RepositoriesView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="91" key="DIALOG_Y_ORIGIN"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
+		<item value="496" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.egit.ui.GitCategory"/>
 		</list>
 	</section>
 </section>
