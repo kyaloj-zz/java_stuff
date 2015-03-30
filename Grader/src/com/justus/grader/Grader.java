@@ -14,8 +14,8 @@ public class Grader {
 			System.out.println("You scored "+ marks + "%");
 			System.out.println("You have an A");
 			System.out.println("You have passed");
-			System.out.println("Grade again");
-			grade();
+			
+			
 			
 		}
 		
